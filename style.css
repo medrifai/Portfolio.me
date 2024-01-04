@@ -1,0 +1,65 @@
+body{
+    background-color:#25206b;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2{
+    color: white;
+}
+h1{
+    color: white;
+}
+.description{
+    display: flex;
+    flex-direction: row;
+    padding:10% ;
+    margin-left: 30%px;
+    margin-right: 50px;
+}
+.button{
+    border-radius: 18px;
+    background: linear-gradient(to right,#87CEEB, #25206b);
+    padding: 12px 30px;
+    border: none;
+    cursor: pointer;
+    margin-left: 150px;
+    color: black;
+    font-weight:bold ;
+
+}
+.button:hover {
+    background: linear-gradient(to right,#25206b, #87CEEB);
+}
+.list{
+    display:flex;
+    list-style: none;
+}
+.list li {
+    margin-right: 65px ;
+    cursor: pointer;
+}
+.header{
+    margin-left: 35%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right: 2%;
+    margin-top: 3%;
+}
+.logo img {
+    max-width: 45px;
+    display: flex;
+    margin-top: 20%;
+    cursor: pointer;
+}
+.DivPere{
+    display: flex;
+    margin-top: 8%;
+}
+#boutton{
+    padding-left: 8%;
+}

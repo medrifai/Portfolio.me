@@ -135,5 +135,11 @@ h1{
 .MyFamilyName{
     background: linear-gradient(45deg,#bfc21d,#a02685);
     -webkit-background-clip: text;
+    background-clip: text;
     color: transparent;
+}
+
+a.education-link {
+    color: white;
+    text-decoration: none;
 }

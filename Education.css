@@ -58,3 +58,23 @@ p{
 #title{
     padding-left: 27%;
 }
+.Back{
+    background-color: rgb(255, 255, 255);
+    border:0px solid #0cf1d3;
+    border-radius: 10px;
+    width: 100px;
+    height: 35px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #000000;
+    font-weight: bold;
+    cursor: pointer;
+}
+.button{
+    margin-left: 26%;
+    padding-top: 23px;
+}
+
+.Back:hover{
+    background-color: #167bda;
+    color: rgb(255, 255, 255);
+}

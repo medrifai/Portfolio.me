@@ -139,7 +139,7 @@ h1{
     color: transparent;
 }
 
-a.education-link {
+a.education-link , a.skills-link{
     color: white;
     text-decoration: none;
 }

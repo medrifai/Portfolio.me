@@ -1,0 +1,28 @@
+name: HTML CSS Validation
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  validate-files:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Check for HTML files
+      run: |
+        if [ $(find . -name "*.html" | wc -l) -eq 0 ]; then
+          echo "Error: No HTML files found"
+          exit 1
+        fi
+
+    - name: Check for CSS files
+      run: |
+        if [ $(find . -name "*.css" | wc -l) -eq 0 ]; then
+          echo "Error: No CSS files found"
+          exit 1
+        fi

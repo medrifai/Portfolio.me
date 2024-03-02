@@ -69,10 +69,6 @@ p{
     font-weight: bold;
     cursor: pointer;
 }
-.button{
-    margin-left: 26%;
-    padding-top: 23px;
-}
 
 .Back:hover{
     background-color: #167bda;
